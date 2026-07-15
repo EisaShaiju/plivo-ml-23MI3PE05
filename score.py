@@ -12,7 +12,7 @@ waiting until a 1.6 s timeout forces a response (on true turn ends).
 We sweep (threshold x delay) and report the best MEAN DELAY achievable
 while interrupting <= 5% of turns. Lower is better.
 
-    python score.py --data_dir eot_data/english --pred predictions.csv
+    python score.py --data_dir eot_data/english --pred predictions_english.csv
 """
 import argparse
 import csv
